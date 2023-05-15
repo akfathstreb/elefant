@@ -1,0 +1,60 @@
+
+<!doctype HTML>
+<html>
+    <head>
+      <meta name="createdwith" content="https://niebert.githhub.io/JSON3D4Aframe">
+        <!--
+      <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+      <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.0/aframe/build/aframe-ar.js"> </script>
+      -->
+      <script src="./js/aframe-v1.0.4.js"></script>
+      <script src="./js/aframe-ar.js"></script>
+    <title>
+            AR hiro Marker - Elefant
+      </title>
+    </head>
+    <body style='margin : 0px; overflow: hidden;'>
+      <a-scene>
+          <a-marker id="mymarker" preset="hiro">
+
+<!-- Comment for ELLIPSOID: körper -->
+<a-sphere id="78912379812" position="-3.80 0.50 -1.80" material="color: #636388;opacity:1" rotation="0 0 0"  radius="1.00" scale="2.00 1.25 1.25" ></a-sphere>
+
+<!-- Comment for CYLINDER: Bein vr -->
+<a-cylinder id="1669644269951" position="-2.80 -0.80 -1.00" material="color: #636388;opacity:1" rotation="0 0 0"  radius="0.30" height="1.50" ></a-cylinder>
+
+<!-- Comment for CYLINDER: Bein hr -->
+<a-cylinder id="1669644405442" position="-4.80 -0.80 -1.00" material="color: #636388;opacity:1" rotation="0 0 0"  radius="0.30" height="1.50" ></a-cylinder>
+
+<!-- Comment for CYLINDER: Bein hl -->
+<a-cylinder id="1669644426526" position="-4.80 -0.80 -2.60" material="color: #636388;opacity:1" rotation="0 0 0"  radius="0.30" height="1.50" ></a-cylinder>
+
+<!-- Comment for CYLINDER: Bein vl -->
+<a-cylinder id="1669644439721" position="-2.80 -0.80 -2.60" material="color: #636388;opacity:1" rotation="0 0 0"  radius="0.30" height="1.50" ></a-cylinder>
+
+<!-- Comment for ELLIPSOID: kopf -->
+<a-sphere id="1669644542108" position="-1.55 1.20 -1.80" material="color: #636388;opacity:1" rotation="330 90 0"  radius="1.00" scale="0.75 0.85 0.75" ></a-sphere>
+
+<!-- Comment for TRIANGLE: ohr r -->
+<a-triangle id="1669645193472" position="-1.80 0.35 -1.10" material="color: #636388;opacity:1" rotation="350 30 90"  vertex-a="0 0 0" vertex-b="1.50 0 0" vertex-c="1.00 1.25 0" ></a-triangle>
+
+<!-- Comment for TRIANGLE: ohr l -->
+<a-triangle id="1669645837931" position="-1.80 0.35 -1.10" material="color: #636388;opacity:1" rotation="350 30 90"  vertex-a="0 0 0" vertex-b="1.50 0 0" vertex-c="1.00 1.25 0" ></a-triangle>
+
+<!-- Comment for CYLINDER: rüssel u -->
+<a-cylinder id="1669645849413" position="-1.00 0.10 -1.80" material="color: #636388;opacity:1" rotation="0 0 10"  radius="0.10" height="2.00" ></a-cylinder>
+
+<!-- Comment for CONE: rüssel o -->
+<a-cone id="1669645942675" position="-1.05 0.25 -1.80" material="color: #636388;opacity:1" rotation="0 0 12"  radius-bottom="0.10" radius-top="0.20" height="0.80" ></a-cone>
+
+<!-- Comment for CYLINDER: schwanz -->
+<a-cylinder id="1669646398799" position="-5.90 0.20 -1.80" material="color: #636388;opacity:1" rotation="0 0 340"  radius="0.05" height="1.50" ></a-cylinder>
+
+<!-- Comment for ELLIPSOID: körper -->
+<a-sphere id="1684158916018" position="-3.80 0.50 -1.80" material="color: #636388;opacity:1" rotation="0 0 0"  radius="1.00" scale="2.00 1.25 1.25" ></a-sphere>
+
+          </a-marker>
+          <a-entity camera ></a-entity>
+      </a-scene>
+    </body>
+</html>
